@@ -7,9 +7,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/taoyage/yg-configs.git"
+    "url": "git+https://github.com/isameng/configs.git"
   },
-  "homepage": "https://github.com/taoyage/yg-configs#readme",
+  "homepage": "https://github.com/isameng/configs#readme",
   "keywords": [
     "ts",
     "eslint",
