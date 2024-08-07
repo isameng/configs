@@ -22,7 +22,7 @@ Front-end project configuration tool
 ```javascript
 $ npm install @isameng/configs --save-dev
 or
-$ pnpm install @isameng/configs -D
+$ npm install @isameng/configs -D
 ```
 
 ## 使用
@@ -59,11 +59,11 @@ module.exports = require('@isameng/configs/commitlint');
 
 ### tsconfig.json
 
-typescript 基础配置
+tsconfig.json 基础配置
 
 ```json
 {
-    "extends": "@isameng/configs/shared-tsconfig",
+    "extends": "@isameng/configs/base-tsconfig",
     "compilerOptions": {
       "paths": {}
     },
