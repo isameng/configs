@@ -1,0 +1,47 @@
+{
+  "name": "@isameng/configs",
+  "version": "1.0.0",
+  "description": "Front-end project configuration tool",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoyage/yg-configs.git"
+  },
+  "homepage": "https://github.com/taoyage/yg-configs#readme",
+  "keywords": [
+    "ts",
+    "eslint",
+    "husky",
+    "prettier"
+  ],
+  "files": [
+    "src",
+    "commitlint.js",
+    "eslint-react-ts.js",
+    "eslint-vue-ts.js",
+    "prettier.js",
+    "base-tsconfig.json"
+  ],
+  "author": "ameng",
+  "license": "ISC MIT",
+  "engines": {
+    "node": ">= 14.20"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "eslint-plugin-vue": "^9.27.0",
+    "husky": "^9.1.4",
+    "prettier": "^3.3.3",
+    "vue-global-api": "^0.4.1"
+  }
+}
