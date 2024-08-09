@@ -65,10 +65,17 @@ tsconfig.json 基础配置
 {
     "extends": "@isameng/configs/base-tsconfig",
     "compilerOptions": {
-      "paths": {}
+      /**
+        如果需要使用别名，请添加以下配置
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["src/*"]
+        }
+       */
     },
-    "exclude": [],
-    "include": []
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx"],
+    // vue "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+    "exclude": ["node_modules", "dist"]
 }
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "@isameng/configs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Front-end project configuration tool",
   "scripts": {
     "prepare": "husky install"
